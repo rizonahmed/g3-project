@@ -1,0 +1,283 @@
+
+@media screen and (min-width:577px) and (max-width:992px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .tech{
+        text-align: center;
+
+    }
+    .navbar>ul{
+        padding-top: 3rem;
+        margin: auto;
+    }
+    .banner-content{
+        padding-top: 1rem;
+    
+    }
+    .banner-content>p{
+padding-top: 2rem;
+
+    }
+    .quick{
+        display: flex;
+        flex-direction: column;
+    }
+    .teams{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+   
+    .content{
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    .some{
+        text-align: center;
+       margin-top: -3rem;
+     }
+     .facts{
+        grid-template-columns: repeat(2 , 1fr);
+        justify-items: center;
+        gap: 2rem;
+     }
+
+     .spons{
+        margin-top: 0;
+     }
+      .spons>p{
+         width: 100%;
+ 
+      }
+ 
+      .amazon{
+         display: grid;
+         grid-template-columns: repeat(2 , 1fr);
+         gap: 3rem;
+         margin: 2rem auto;
+         
+      }
+ 
+      .last{
+        height: 5rem;
+
+     }
+
+     .features{
+        display: flex;
+        flex-direction: column;
+        margin:-1rem auto;
+    
+
+     }
+
+     .super{
+        padding-top:0 ;
+        margin-bottom: 0;
+     }
+     .long-card{
+        max-width:100% ;
+        
+     }
+
+     .year{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        padding-bottom: 8rem;
+        text-align: center;
+        }
+
+        .sister{
+            margin-top: 2rem ;
+            margin-left: -2rem;
+        }
+        .sister>img{
+margin-left: 2rem;
+        }
+
+
+
+}
+
+
+
+
+@media screen and (min-width:993px) and (max-width:1330px){
+    .quick{
+        display: flex;
+        flex-direction: column;
+    }
+    .teams{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+   
+    .content{
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .facts{
+        gap: 1rem;
+
+    }
+
+    .spons{
+        margin-top: 0;
+     }
+      .spons>p{
+         width: 80%;
+ 
+      }
+ 
+      .amazon{
+         display: grid;
+         grid-template-columns: repeat(3 , 1fr);
+         gap: 3rem;
+         margin: 2rem auto;
+      }
+ 
+      .features{
+         display: flex;
+         flex-direction: column;
+      }
+ 
+      .super{
+         padding-top:0 ;
+         margin-bottom: 0;
+      }
+      .long-card{
+        max-width:100% ;
+         
+      }
+ 
+      .year{
+         margin-top: 2rem;
+         margin-left: 1rem;
+         padding-bottom: 0rem;
+         text-align: center;
+         }
+ 
+         .sister{
+           
+             
+            margin:2rem auto;
+         }
+         .sister>img{
+            justify-items: center;
+         }
+       
+}
+ 
+
+
+
+@media screen and (min-width:1331px) and (max-width:1617px){
+.sister{
+margin-top: 14rem;
+
+}
+
+}
+ 
+
+
+
+
+@media screen and (max-width:576px) { 
+    .navbar , .navbar>ul  {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar>ul{
+        margin-top: 3rem;
+    }
+    .tech{
+        text-align: center;
+    }
+    .banner-content{
+        padding-top: 3rem;
+    }
+
+     .quick{
+        display: flex;
+        flex-direction: column;
+
+     }
+     .teams{
+        margin-top: -2rem;
+        margin-bottom: 3rem;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 2rem;
+     }
+     .content{
+        width: 100%;
+        text-align: center;
+     }
+
+     .some{
+        text-align: center;
+        margin-top: -3rem;
+     }
+     .facts{
+        grid-template-columns: repeat(1 , 1fr);
+        justify-items: center;
+        gap: 2rem;
+     }
+     .archive{
+        max-width: 50%;
+       height: 16rem;
+     }
+
+     
+    .spons{
+       margin-top: 0;
+    }
+     .spons>p{
+        width: 100%;
+
+     }
+
+     .amazon{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 3rem;
+        margin: 2rem auto;
+     }
+     .last{
+        height: 5rem;
+
+     }
+
+     .features{
+        display: flex;
+        flex-direction: column;
+        margin:-1rem auto;
+    
+
+     }
+
+     .super{
+        padding-top:0 ;
+        margin-bottom: 2.5rem;
+     }
+     .long-card{
+        max-width:100% ;
+        
+     }
+
+     .year{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        padding-bottom: 8rem;
+        text-align: center;
+        }
+        .sister{
+         margin: auto;
+
+        }
+
+      }
+ 

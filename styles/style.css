@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+ 
+}
+
+.nav{
+background-color: #FFF4E6;
+
+}
+.navbar{
+max-width: 80%;
+display: flex;
+justify-content: space-between;
+margin: auto;
+padding: 2rem 0;
+}
+
+.tech{
+font-size: 1.8rem ;
+font-weight: 800;
+ 
+}
+.navbar>ul{
+   display: flex; 
+   align-items: center;
+   gap: 2.5rem;
+}
+.navbar>ul>li{
+    list-style: none;
+}
+.navbar>ul>li>a{
+text-decoration: none ;
+color: rgb(0, 0, 0);
+font-size: .8rem;
+font-weight: 500;
+
+}
+
+.banner-content{
+max-width: 80%;
+margin: 0 auto;
+text-align: center;
+padding-top: 4rem;
+}
+.banner-content>h1{
+    font-size: 2.5rem ;
+    font-weight: 800;
+    margin: auto;
+}
+.banner-content>p{
+    font-size: .8rem;
+    max-width: 45%;
+    margin: auto;
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+}
+.banner-content>button{
+margin: 2.3rem auto;
+padding: .8rem 1.2rem;
+background-color:rgb(255, 144, 14);
+border: none;
+outline: none;
+border-radius: .4rem;
+color: whitesmoke;
+font-weight: 700;
+font-size: .9rem;
+cursor: pointer;
+}
+.banner{
+    width: 98%;
+    margin: auto;
+}
+.banner>img{
+    width: 100%;
+}
+ 
+main{
+    max-width: 78%;
+    margin: 0 auto;
+}
+.quick{
+margin: 6rem auto;
+display: flex;
+align-items: center;
+}
+.teams{ 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+  } 
+ 
+  .content{
+ margin: 0 5rem ;
+
+}  
+.content>h2{
+    word-spacing: 2px;
+    color: #727272;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.one{
+color: #131313;
+font-weight: 800;
+}
+.two{
+    color:rgb(255, 144, 14);
+    font-weight: 900;
+}
+.content>p{
+    max-width:100% ;
+padding-top: 1rem ;
+padding-bottom: 1rem ;
+font-size: .9rem;
+}
+
+.content>button{
+    margin: 2rem auto;
+    padding: .8rem 1.2rem;
+    background-color:rgb(255, 144, 14);
+    border: none;
+    outline: none;
+    border-radius: .4rem;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: .9rem;
+    cursor: pointer;
+}    
+
+
+.features{
+display: flex;
+margin-bottom: 9rem;
+}
+.super{
+    padding-top: 4rem;
+}
+
+.super>h1{
+    font-size: 1.8rem;
+    font-weight: 800;
+border-left: 5px solid blueviolet;
+padding-left: .9rem;
+
+}
+.super>p{
+max-width: 80%;
+padding-top: 2rem;
+padding-bottom: 2rem;
+font-size: .8rem;
+}
+
+.long-card{
+    box-shadow: 0px 1px 15px   rgb(182, 223, 172);
+    max-width: 80%;
+    padding-top: 1.5rem;
+    gap: 2rem;
+    margin: 1.2rem 0;
+    border-radius: .7rem;
+
+}
+.long-card>h4{
+    padding-top: .5rem ;
+    padding-left: 1.5rem;
+}
+.long-card>p{
+padding: 1.5rem;
+font-size: .8rem;
+max-width: 805;
+
+}
+
+.year{
+margin-top: -6rem;
+margin-left: -6rem;
+}
+.year>button{
+padding: 2rem 2rem;
+background-color:rgb(255, 144, 14) ;
+border: none;
+outline: none;
+border-radius: .6rem;
+
+}
+.exp{
+    font-size: 2.5rem;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.rence{
+    font-size: 1.2rem;
+    color: whitesmoke;
+    font-weight: 600;
+}
+.sister{
+    margin-top: 14rem ;
+    margin-left: -2rem;
+}
+
+.sister>img{
+    max-width: 100%;
+}
+
+ 
+
+.some>h1{
+font-size: 1.6rem;
+font-weight: 800;
+}
+.some>p{
+font-size: .8rem;
+padding: 1.3rem 0;
+
+}
+
+.facts{
+display: grid;
+grid-template-columns: repeat(4 , 1fr);
+  margin: 3.5rem auto;
+}
+.archive{
+max-width: 16rem;
+height: 16rem;
+border: solid 2px rgb(176, 20, 197);
+text-align: center;
+padding: 4rem;
+border-radius: .7rem;
+}
+.archive>h3{
+    font-size: 1.8rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+
+.archive>p{
+font-size: .8rem;
+font-weight: 800;
+}
+
+.spons{
+    text-align: center;
+    margin-top: 8rem;
+}
+.spons>h2{
+font-size: 1.7rem;
+font-weight: 800;
+padding: 1rem;
+}
+.spons>p{
+width: 50%;
+margin: auto;
+padding-bottom: 2rem;
+font-size: .8rem;
+}
+
+.amazon{
+margin: 3rem auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.google>img{
+    font-size: 80%;
+}
+ 
+.last{
+width: 80%;
+height: 4rem;
+background-color: #FFF4E7;
+margin: auto;
+text-align: center;
+}
+.footer >p{
+padding: 1.5rem;
+font-size: .8rem;
+}
+.footer>p>span{
+cursor: pointer;
+color: rgb(219, 16, 219);
+font-size: .9rem;
+font-weight: 600;
+text-shadow: 1px 0px 1px    rgb(255, 75, 4);
+}
