@@ -184,7 +184,6 @@ margin-top: 14rem;
 
 
 
-
 @media screen and (max-width:576px) { 
     .navbar , .navbar>ul  {
         display: flex;

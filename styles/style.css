@@ -206,8 +206,6 @@ border-radius: .6rem;
     max-width: 100%;
 }
 
- 
-
 .some>h1{
 font-size: 1.6rem;
 font-weight: 800;
@@ -269,11 +267,13 @@ justify-content: space-between;
 }
  
 .last{
+ 
 width: 80%;
 height: 4rem;
 background-color: #FFF4E7;
 margin: auto;
 text-align: center;
+border-radius: .6rem;
 }
 .footer >p{
 padding: 1.5rem;
@@ -285,4 +285,14 @@ color: rgb(219, 16, 219);
 font-size: .9rem;
 font-weight: 600;
 text-shadow: 1px 0px 1px    rgb(255, 75, 4);
+}
+
+
+.last:hover{
+    background-color: #131313;
+    color: aliceblue;
+    transition: 1s;
+    .footer>p>span {
+        color: rgb(255, 136, 0);
+    }
 }
